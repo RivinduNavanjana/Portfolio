@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "I am an IT undergraduate at the University of Sri Jayewardenepura who is interested in UI/UX designing.Moreover, my passion is Music. So, when I have free time, I always love to play the violin which can fix my each and every mood less time.",
+    aboutme: "I am an IT (Bsc)undergraduate at the University of Sri Jayewardenepura who is interested in UI/UX designing.Moreover, my passion is Music. So, when I have free time, I always love to play the violin which can fix my each and every mood less time.",
     
 };
 const datacontact = {
@@ -65,66 +65,37 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "http://fhss.sjp.ac.lk/wp-content/uploads/2022/12/Frame-182.png",
+        desctiption: "We@FHSS is the latest mobile application of the Faculty of Humanities and Social Sciences, USJ. It enables undergraduates as well as the academic members of the faculty to experience following features.",
+        link: "http://fhss.sjp.ac.lk/mobile/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://d33wubrfki0l68.cloudfront.net/432241ca94be9902c4d92aef279294e0d8ac81d4/4c9bb/images/dam/dam-illustration-1.webp",
+        desctiption: "The assest managment mobilr app",
+        link: "https://github.com/FHSS-USJ/end-semester-exam-Group-1.git",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://images.pexels.com/photos/6132745/pexels-photo-6132745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        desctiption: "The ATM system",
+        link: "https://github.com/RivinduNavanjana/ATM_System.git",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/254120385_100125122493318_9087091057793878998_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFPGLIxmbNyT-14cQKdKii5f2riwVZpjcZ_auLBVmmNxt1PZ-EuYYRxOlgiEuLRjVRug534SJgeaB3H4CAN4pxh&_nc_ohc=D1qs07AZ8jUAX-yQfIn&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfCvU7zDeHMRGzF8NwK5u3POWVGsUn6jNwN4M71jqDvMew&oe=6417A3FF",
+        desctiption: "DON & CRYSSEL PIZZA web system",
+        link: "https://github.com/RivinduNavanjana/don-crytsel_pizza_web.git",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://images.pexels.com/photos/2873486/pexels-photo-2873486.jpeg?auto=compress&cs=tinysrgb&w=600",
+        desctiption: "The Movie select web system",
+        link: "https://github.com/RivinduNavanjana/Film_website.git",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://images.pexels.com/photos/7089047/pexels-photo-7089047.jpeg?auto=compress&cs=tinysrgb&w=600",
+        desctiption: "The Hospital managment system",
+        link: "https://github.com/RivinduNavanjana/care_hospital_system.git",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+
 ];
 
 const contactConfig = {
@@ -133,9 +104,9 @@ const contactConfig = {
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_2de0dav",
+    YOUR_TEMPLATE_ID: "template_7pqunaz",
+    YOUR_USER_ID: "4PiQnVgf6T5OlZ0ok",
 };
 
 const socialprofils = {
