@@ -17,33 +17,25 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "I am an IT undergraduate at the University of Sri Jayewardenepura who is interested in UI/UX designing.Moreover, my passion is Music. So, when I have free time, I always love to play the violin which can fix my each and every mood less time.",
+    
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+const datacontact = {
+    title: "Contact Details",
+    aboutme1: "Rivindu Navanjana ",
+    aboutme2:"2/A Polhena, Madapatha,Piliyandala",
+    aboutme3: "0769 390 572",
+    aboutme4:"rivindunavanjana2000@gmail.com"
+    
+};
+
+
 
 const skills = [{
         name: "Python",
         value: 90,
     },
-    {
-        name: "Djano",
-        value: 85,
-    },
+   
     {
         name: "Javascript",
         value: 80,
@@ -60,15 +52,15 @@ const skills = [{
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "It's the extremely powerful art of creating visually pleasing, highly intuitive user experiences. As a UI designer, you'll work with a multidisciplinary team of designers, developers, and marketers to realize your projects",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Today, mobile devices—and the mobile applications that unlock their value—are the most popular way for people and businesses to connect to the internet. To stay relevant, responsive and successful, organizations need to develop the mobile applications that their customers, partners and employees demand.",
     },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Becoming a web designer allows you to use your creativity, following briefs and putting your own individual spin and style on them. Most projects you'll be given will have a particular deadline and task outline, but the reason you've been hired is because they require an expert to add that much needed creative flare.",
     },
 ];
 
@@ -156,7 +148,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+    datacontact,
     skills,
     services,
     introdata,

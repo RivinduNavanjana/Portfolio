@@ -6,6 +6,9 @@ import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
+import image from"../../assets/images/qr.png"
+
+
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -95,7 +98,7 @@ export const ContactUs = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
+              <strong>Email : </strong>{" "}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
@@ -103,13 +106,15 @@ export const ContactUs = () => {
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                  <strong>Phone : </strong> {contactConfig.YOUR_FONE}
                 </p>
+                
+                
               ) : (
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
+            <p><strong>Address : </strong>"2/A Polhena, Madapatha,Piliyandala"</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">
@@ -148,18 +153,28 @@ export const ContactUs = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
+
               ></textarea>
+          
               <br />
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "Send"}
                   </button>
+                 
                 </Col>
               </Row>
+              <Row>
+              <Col lg="40" className="form-qr">
+
+                 <img src={image} alt="QR"  /></Col></Row>
             </form>
+           
           </Col>
+          
         </Row>
+        
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>
