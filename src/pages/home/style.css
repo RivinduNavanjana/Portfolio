@@ -57,7 +57,7 @@ section {
 }
 
 .intro_sec .intro {
-    max-width: 450px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -92,10 +92,13 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
-    background-position: center;
-    min-height: 700px;
-    position: relative;
+    background-size: 70%;
+    background-position: right;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    min-height: 70px;
+    position: sticky;
+   
 }
 
 .ac_btn {
